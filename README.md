@@ -52,10 +52,10 @@
 ```bash
 Udhhan/
 ├── index.php                # Home page
-├── login.php / register.php
-├── cart.php / checkout.php
+├── login.php 
+├── cart.php
 ├── order_history.php
-├── forgot_password.php / reset_password.php
+├── forgot_password.php 
 ├── process_order.php
 ├── book_preview.html
 ├── js/                     # JavaScript logic
@@ -85,14 +85,14 @@ Udhhan/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/udhhan.git
-   cd udhhan
+   git clone https://github.com/mrNarayan07/Udhhan-EBookStore.git
+   cd Udhhan-EBookStore
    ```
 
 2. **Move the Project Folder**
    Move the project to your Apache server directory:
-   - For XAMPP: `C:/xampp/htdocs/udhhan`
-   - For MAMP: `/Applications/MAMP/htdocs/udhhan`
+   - For XAMPP: `C:/xampp/htdocs/Udhhan-EBookStore`
+   - For MAMP: `/Applications/MAMP/htdocs/Udhhan-EBookStore`
 
 3. **Start Apache & MySQL** via Control Panel
 
@@ -141,7 +141,7 @@ Udhhan/
 5. **Run the App**
    Open your browser and navigate to:
    ```
-   http://localhost/udhhan/
+   http://localhost/Udhhan-EBookStore/
    ```
 
 ---
@@ -200,17 +200,10 @@ Then open a **Pull Request** on GitHub.
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See [`LICENSE`](LICENSE) for more details.
-
----
-
 ## 🧑‍💻 Credits
 
 **Project Name**: Udhhan  
 **Slogan**: *"The Flight of Education"*  
-Crafted with ❤️ by the **Guys at UU**
+
 
 ---
