@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Sign-in Callback</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <p>Processing Google sign-in...</p>
+    <script>
+        // This script will handle the authentication parameters in the URL hash
+        // and forward them back to your main auth.js logic.
+        if (window.location.hash) {
+            // You can optionally add a loading indicator here
+            // and then the auth.js script will handle the rest.
+        }
+    </script>
+    <script src="./js/auth.js"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+</body>
+</html>

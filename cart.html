@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Udhhan</title>
+    <link rel="stylesheet" href="./css/style.css" /> <!-- Your main stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="icon" type="image/svg"  href="./img/bookfavicon.svg" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: #FFFFFF; /* Plain white background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .page-container { /* Optional container for content */
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .page-header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+        .page-header h1 {
+            font-size: 1.8rem;
+            margin: 0;
+            color: #333;
+            font-weight: 600;
+        }
+        /* Cart item styles will be applied by JS or can be defined here if preferred */
+        /* .cart-item { ... } */
+        /* .cart-total-section { ... } */
+        /* Ensure header/footer styles from style.css are appropriate for white background */
+        .header-1 .logo, .header-1 .icons a {
+            color: #333; /* Adjust header link colors for white background */
+        }
+         .header-1 .logo:hover, .header-1 .icons a:hover {
+             color: #007bff; /* Example hover color */
+         }
+    </style>
+</head>
+<body>
+
+     <header class="header">
+        <div class="header-1">
+          <a href="./index.php" class="logo"><i class="fas fa-book"></i> Udhhan</a>
+          <div class="icons">
+            <a href="./fav.html" class="fas fa-heart-circle-check" aria-label="Favorites"></a>
+            <a href="./cart.html" class="fas fa-shopping-cart" aria-label="Shopping Cart">
+                <!-- Cart count badge will be added by JS -->
+            </a>
+            <a id="login-btn" class="fa-solid fa-user" href="./login.php" aria-label="Login"></a>
+          </div>
+        </div>
+      </header>
+
+    <div class="page-container">
+        <div class="page-header">
+          <h1>Your Shopping Cart</h1>
+        </div>
+
+        <!-- Cart items will be rendered here by JavaScript -->
+        <div id="cart-items">
+            <p style="text-align:center; padding: 20px; color: #555;">Loading your cart...</p>
+        </div>
+    </div>
+
+    <hr style="border: 0; height: 1px; background-color: #eee; margin: 30px 0;">
+    <footer style="text-align: center; padding: 20px; color: #777; font-size: 0.9rem;">
+        Copyright © 2025 Udhhan | All rights reserved.
+    </footer>
+
+    <script src="./js/cart-favorites.js"></script>
+    <!-- Include other general JS files if needed, but cart.html is now mostly driven by cart-favorites.js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script> -->
+    <!-- <script src="./js/script.js"></script> -->
+
+</body>
+</html>
