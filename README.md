@@ -150,8 +150,8 @@ Udhhan/
 
 ### 🏠 Home Page  
 ![Home](assets/home.png)
-!(assets/home-2.png)  
-!(assets/home-3.png)
+![](assets/home-2.png)  
+![](assets/home-3.png)
 
 ### 🔍 Search Interface  
 ![Search](assets/search.png)
